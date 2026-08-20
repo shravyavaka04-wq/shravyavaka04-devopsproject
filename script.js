@@ -14,6 +14,10 @@ form.addEventListener("submit", function(event) {
         message.innerHTML = "Please fill all the fields.";
         return;
     }
+if (password.length < 6) {
+    message.innerHTML = "Password must contain at least 6 characters.";
+    return;
+}
 
     if (password != confirmPassword) {
         message.innerHTML = "Passwords do not match.";
