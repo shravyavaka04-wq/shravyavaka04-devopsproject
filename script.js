@@ -1,4 +1,5 @@
 let form = document.getElementById("registrationForm");
+alert("Welcome to the Online Exam Registration!");
 
 form.addEventListener("submit", function(event) {
 
